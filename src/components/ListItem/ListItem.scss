@@ -1,0 +1,106 @@
+@import 'src/styles/common';
+@import 'src/styles/variables';
+
+
+.ItemQuickView {
+  height: 100%;
+  color: $darkest;
+
+  .ItemQuickImage {
+    width: $product-thumbnail-size;
+    height: $product-thumbnail-size;
+    border-radius: $border-radius;
+    padding: 0 $base-margin;
+    object-fit: contain;
+  }
+
+  .description {
+    position: absolute;
+    display: inline-block;
+    width: 78%;
+
+    * {
+      font-weight: 400;
+      margin: 0;
+    }
+
+    .header {
+      //display: inline-flex;
+      position: relative;
+      width: 100%;
+      margin-bottom: $double-margin;
+      margin-top: $base-margin;
+    }
+
+    .shipping {
+      @include vertical-align;
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      bottom: 0;
+      margin-left: $base-margin;
+    }
+
+    .price {
+      display: inline-flex;
+      font-size: $medium-font;
+
+      &.placeholder {
+        width: 80px;
+        &::after {
+          content: "";
+          margin-top: 5px;
+          margin-left: 5px;
+          display: inline-table;
+          width: $medium-font*3;
+          background-color: rgba(0, 0, 0, 0.2);
+          border-radius: $border-radius;
+          height: $medium-font;
+        }
+      }
+    }
+    .title {
+      font-size: $small-font;
+      line-height: 1.2em;
+      margin: 0;
+
+      &.placeholder {
+        &::after {
+          content: "";
+          display: inline-table;
+          width: $medium-font*10;
+          background-color: rgba(0, 0, 0, 0.1);
+          border-radius: $border-radius;
+          height: $medium-font;
+          @include placeholder-vertical-align;
+        }
+      }
+
+      &.placeholderSubtitle {
+        display: flex;
+        &::after {
+          content: "";
+          display: inline-table;
+          width: $medium-font*6;
+          background-color: rgba(0, 0, 0, 0.05);
+          border-radius: $border-radius;
+          height: $medium-font;
+          top: 0px;
+          //@include placeholder-vertical-align;
+        }
+      }
+    }
+
+    .location {
+      position: absolute;
+      color: $dark;
+      float: right;
+      margin-right: 10%;
+      bottom: 0;
+      right: 0;
+      vertical-align: bottom;
+      font-size: $smallest-font;
+      display: inline-flex;
+    }
+  }
+}

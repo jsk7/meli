@@ -1,0 +1,46 @@
+@import 'src/styles/variables';
+
+.SearchBar {
+  position: relative;
+
+  input {
+    width: 95%;
+    height: 35px;
+    border: 0;
+    background-color: #fff;
+    box-shadow:none;
+    border-radius: 0px;
+    padding: 0px $base-margin 0px 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: $small-font;
+    -webkit-appearance: none;
+    outline: none;
+  }
+
+  .searchButton {
+    border-radius: 0 3px 3px 0;
+    width: 42px;
+    height: 37px;
+    right: 0px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    display: inline-flex;
+    background-image: linear-gradient(#fff,#f1f1f1);
+  }
+  .search {
+    font-size: $small-font;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    color: $dark;
+    box-sizing: border-box;
+    content: '\EA16';
+    background-image: url('../../assets/ic_Search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

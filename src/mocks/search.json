@@ -1,0 +1,170 @@
+{
+  "site_id": "MLA",
+  "query": " Apple ipod",
+  "paging": {
+    "total": 787,
+    "offset": 0,
+    "limit": 50,
+    "primary_results": 787
+  },
+  "results": [
+    {
+      "id": "MLA627480404",
+      "site_id": "MLA",
+      "title": "Apple Ipod Touch 32gb 6ta Generacion",
+      "seller": {
+        "id": 210666140,
+        "power_seller_status": "silver",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": []
+      },
+      "price": 7500,
+      "currency_id": "ARS",
+      "available_quantity": 4,
+      "sold_quantity": 16,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2036-07-08T19:11:38.000Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.com.ar/MLA-627480404-apple-ipod-touch-32gb-6ta-generacion-_JM",
+      "thumbnail": "http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": null,
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "",
+        "city_name": "Cañitas"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": []
+      },
+      "seller_address": {
+        "id": 181424202,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "",
+          "name": "Cañitas"
+        },
+        "latitude": -34.6036844,
+        "longitude": -58.3815591
+      },
+      "attributes": [],
+      "original_price": null,
+      "category_id": "MLA43718",
+      "official_store_id": null,
+      "catalog_product_id": null,
+      "reviews": {}
+    },
+    {
+      "id": "MLA669350659",
+      "site_id": "MLA",
+      "title": "Ipod Nano 16gb Gris 7g Nuevo Original Apple Sellado Garantía",
+      "seller": {
+        "id": 97007624,
+        "power_seller_status": "gold",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": []
+      },
+      "price": 5349,
+      "currency_id": "ARS",
+      "available_quantity": 1,
+      "sold_quantity": 2,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2037-06-01T01:16:59.000Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.com.ar/MLA-669350659-ipod-nano-16gb-gris-7g-nuevo-original-apple-sellado-garantia-_JM",
+      "thumbnail": "http://mla-s2-p.mlstatic.com/917709-MLA25649437684_062017-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": null,
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQlZJTDc4MDda",
+        "city_name": "Villa del Parque"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": []
+      },
+      "seller_address": {
+        "id": 72488084,
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "TUxBQlZJTDc4MDda",
+          "name": "Villa del Parque"
+        },
+        "latitude": -34.6061001,
+        "longitude": -58.4765961
+      },
+      "attributes": [],
+      "original_price": null,
+      "category_id": "MLA51772",
+      "official_store_id": null,
+      "catalog_product_id": null,
+      "reviews": {}
+    }
+  ],
+  "secondary_results": [],
+"related_results": [],
+"sort": {
+  "id": "relevance",
+  "name": "More relevant"
+},
+"available_sorts": [
+  {
+    "id": "price_asc",
+    "name": "Lower price"
+  },
+  {
+    "id": "price_desc",
+    "name": "Higher price"
+  }
+],
+"filters": [],
+"available_filters": [
+  {
+    "id": "category",
+    "name": "Categories",
+    "type": "text",
+    "values": [
+      {
+        "id": "MLA409810",
+        "name": "Audio",
+        "results": 352
+      },
+      {
+        "id": "MLA3502",
+        "name": "Accesorios para Celulares",
+        "results": 236
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "MLA627480404",
+    "site_id": "MLA",
+    "title": "Apple Ipod Touch 32gb 6ta Generacion",
+    "subtitle": null,
+    "seller_id": 210666140,
+    "category_id": "MLA43718",
+    "official_store_id": null,
+    "price": 7500,
+    "base_price": 7500,
+    "original_price": null,
+    "currency_id": "ARS",
+    "initial_quantity": 20,
+    "available_quantity": 4,
+    "sold_quantity": 16,
+    "sale_terms": [],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2016-07-13T19:11:38.000Z",
+    "stop_time": "2036-07-08T19:11:38.000Z",
+    "condition": "new",
+    "permalink": "http://articulo.mercadolibre.com.ar/MLA-627480404-apple-ipod-touch-32gb-6ta-generacion-_JM",
+    "thumbnail": "http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg",
+    "secure_thumbnail": "https://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg",
+    "pictures": [
+      {
+        "id": "893911-MLA25840454871_082017",
+        "url": "http://mla-s1-p.mlstatic.com/893911-MLA25840454871_082017-O.jpg",
+        "secure_url": "https://mla-s1-p.mlstatic.com/893911-MLA25840454871_082017-O.jpg",
+        "size": "451x500",
+        "max_size": "941x1042",
+        "quality": ""
+      }
+    ],
+    "video_id": null,
+    "descriptions": [
+      {
+        "id": "MLA627480404-1136288981"
+      }
+    ],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+      "mode": "me2",
+      "methods": [],
+      "tags": [],
+      "dimensions": null,
+      "local_pick_up": true,
+      "free_shipping": false,
+      "logistic_type": "drop_off",
+      "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+      "comment": "",
+      "address_line": "",
+      "zip_code": "",
+      "city": {
+        "id": "",
+        "name": "Cañitas"
+      },
+      "state": {
+        "id": "AR-C",
+        "name": "Capital Federal"
+      },
+      "country": {
+        "id": "AR",
+        "name": "Argentina"
+      },
+      "search_location": {
+        "neighborhood": {
+          "id": "TUxBQkxBUzIxNTJa",
+          "name": "Las Cañitas"
+        },
+        "city": {
+          "id": "TUxBQ0NBUGZlZG1sYQ",
+          "name": "Capital Federal"
+        },
+        "state": {
+          "id": "TUxBUENBUGw3M2E1",
+          "name": "Capital Federal"
+        }
+      },
+      "latitude": -34.606533,
+      "longitude": -58.385517,
+      "id": 181424202
+    },
+    "seller_contact": null,
+    "location": {},
+    "geolocation": {
+      "latitude": -34.606533,
+      "longitude": -58.385517
+    },
+    "coverage_areas": [],
+    "attributes": [],
+    "warnings": [],
+    "listing_source": "",
+    "variations": [],
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+      "only_html_description",
+      "dragged_bids_and_visits",
+      "poor_quality_picture",
+      "immediate_payment"
+    ],
+    "warranty": "Garantia 1 año Oficial Apple",
+    "catalog_product_id": null,
+    "domain_id": null,
+    "parent_item_id": "MLA619276925",
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2016-07-13T19:11:38.000Z",
+    "last_updated": "2017-08-06T15:12:57.000Z"
+  },
+  {
+    "id": "MLA634958914",
+    "site_id": "MLA",
+    "title": "Ipod Shuffle 2gb Apple 5ta Generacion Pink / Blue Rosa Azul",
+    "subtitle": null,
+    "seller_id": 24314717,
+    "category_id": "MLA12818",
+    "official_store_id": null,
+    "price": 1700,
+    "base_price": 1700,
+    "original_price": null,
+    "currency_id": "ARS",
+    "initial_quantity": 114,
+    "available_quantity": 8,
+    "sold_quantity": 106,
+    "sale_terms": [],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2016-09-13T20:44:28.000Z",
+    "stop_time": "2036-09-08T20:44:28.000Z",
+    "condition": "new",
+    "permalink": "http://articulo.mercadolibre.com.ar/MLA-634958914-ipod-shuffle-2gb-apple-5ta-generacion-pink-blue-rosa-azul-_JM",
+    "thumbnail": "http://mla-s1-p.mlstatic.com/636945-MLA25667589604_062017-I.jpg",
+    "secure_thumbnail": "https://mla-s2-p.mlstatic.com/636945-MLA25667589604_062017-I.jpg",
+    "pictures": [
+      {
+        "id": "636945-MLA25667589604_062017",
+        "url": "http://mla-s1-p.mlstatic.com/636945-MLA25667589604_062017-O.jpg",
+        "secure_url": "https://mla-s2-p.mlstatic.com/636945-MLA25667589604_062017-O.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      },
+      {
+        "id": "380605-MLA25050059177_092016",
+        "url": "http://mla-s1-p.mlstatic.com/380605-MLA25050059177_092016-O.jpg",
+        "secure_url": "https://mla-s1-p.mlstatic.com/380605-MLA25050059177_092016-O.jpg",
+        "size": "500x500",
+        "max_size": "500x500",
+        "quality": ""
+      },
+      {
+        "id": "807391-MLA25667590053_062017",
+        "url": "http://mla-s2-p.mlstatic.com/807391-MLA25667590053_062017-O.jpg",
+        "secure_url": "https://mla-s2-p.mlstatic.com/807391-MLA25667590053_062017-O.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      },
+      {
+        "id": "783291-MLA25667589649_062017",
+        "url": "http://mla-s1-p.mlstatic.com/783291-MLA25667589649_062017-O.jpg",
+        "secure_url": "https://mla-s2-p.mlstatic.com/783291-MLA25667589649_062017-O.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      },
+      {
+        "id": "601125-MLA25667590628_062017",
+        "url": "http://mla-s1-p.mlstatic.com/601125-MLA25667590628_062017-O.jpg",
+        "secure_url": "https://mla-s1-p.mlstatic.com/601125-MLA25667590628_062017-O.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      },
+      {
+        "id": "850294-MLA25667590129_062017",
+        "url": "http://mla-s2-p.mlstatic.com/850294-MLA25667590129_062017-O.jpg",
+        "secure_url": "https://mla-s1-p.mlstatic.com/850294-MLA25667590129_062017-O.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      }
+    ],
+    "video_id": "AgQaBqXO0RQ",
+    "descriptions": [
+      {
+        "id": "MLA634958914-1175052890"
+      }
+    ],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+      "mode": "me2",
+      "methods": [],
+      "tags": [],
+      "dimensions": null,
+      "local_pick_up": true,
+      "free_shipping": false,
+      "logistic_type": "cross_docking",
+      "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+      "comment": "",
+      "address_line": "",
+      "zip_code": "",
+      "city": {
+        "id": "",
+        "name": "La Lucila, Vicente Lopez"
+      },
+      "state": {
+        "id": "AR-B",
+        "name": "Buenos Aires"
+      },
+      "country": {
+        "id": "AR",
+        "name": "Argentina"
+      },
+      "search_location": {
+        "neighborhood": {
+          "id": "TUxBQkxBTDIxMzFa",
+          "name": "La Lucila"
+        },
+        "city": {
+          "id": "TUxBQ1ZJQ2E3MTQz",
+          "name": "Vicente López"
+        },
+        "state": {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte"
+        }
+      },
+      "latitude": -34.49656,
+      "longitude": -58.488506,
+      "id": 131440393
+    },
+    "seller_contact": null,
+    "location": {},
+    "geolocation": {
+      "latitude": -34.49656,
+      "longitude": -58.488506
+    },
+    "coverage_areas": [],
+    "attributes": [],
+    "warnings": [],
+    "listing_source": "",
+    "variations": [],
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+      "unknown_quality_picture",
+      "immediate_payment"
+    ],
+    "warranty": "Producto Original - Garantía Oficial Apple",
+    "catalog_product_id": null,
+    "domain_id": null,
+    "parent_item_id": null,
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2016-09-13T20:44:29.000Z",
+    "last_updated": "2017-08-05T22:49:21.000Z"
+  }
+]

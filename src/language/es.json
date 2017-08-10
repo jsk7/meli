@@ -1,0 +1,11 @@
+{
+  "search": {
+    "new": "completo único!"
+  },
+  "productDetails": {
+    "new": "nuevo",
+    "sold": "vendidos",
+    "buy": "compra",
+    "description": "descripción del producto"
+  }
+}
