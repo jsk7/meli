@@ -39,7 +39,6 @@ export const itemsProcessed = createSelector(
   getResults, getItems,
   (results, itemsLoaded) => {
     results = results.map(result => {
-      console.log(itemsLoaded);
       const resultCopy = {...result};
       const fullItemData = itemsLoaded.find(item =>
         item.id === result.id

@@ -9,7 +9,6 @@ export default class ItemsList extends React.PureComponent {
   render() {
     let { items } = this.props;
 
-    console.log(items);
     if(!items.length) { // Placeholders
       for(let i = 0; i < 4; i++)
         items = [...items, {
