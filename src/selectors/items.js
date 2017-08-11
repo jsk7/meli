@@ -26,7 +26,7 @@ export const getItem = createSelector(
     item.plain_text = description && description.plain_text;
     item.html = description && description.text;
     item.price = UtilHelper.formatMoney(item.price);
-    item.image = item.pictures[0].url;
+    item.image = item.pictures && item.pictures.length && item.pictures[0].url;
     return item;
   }
 )

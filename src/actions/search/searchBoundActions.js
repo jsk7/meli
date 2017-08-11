@@ -25,6 +25,7 @@ export const search = (e) =>
     const searchText = getState().search.input;
 
     dispatch(itemsActions.clearItems());
+    dispatch(clearSearch());
     dispatch(changeToSearchLocation(searchText));
     dispatch(actions.searchRequest());
     return (
@@ -32,6 +33,7 @@ export const search = (e) =>
       .then((res) => {
         dispatch(actions.searchSuccess());
         dispatch(actions.saveSearchData(res));
+        dispatch(actions.toggleFetch(true));
       })
       .catch(e => dispatch(actions.searchFailed(e)) )
     )
@@ -51,6 +53,6 @@ export const changeToSearchLocation = (searchText) =>
   }
 
 
-export const toggleFetch = () =>
+export const toggleFetch = (boolean) =>
   dispatch =>
-    dispatch(actions.toggleFetch());
+    dispatch(actions.toggleFetch(boolean));

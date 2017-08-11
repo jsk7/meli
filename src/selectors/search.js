@@ -6,6 +6,7 @@ const getAllFilters = state => state.search.filters;
 const getResults = state => state.search.results;
 const getMaxFetch = state => state.search.maxFetch;
 const shouldFetch = state => state.search.shouldFetch;
+const getCurrentSearch = state => state.search.currentSearch;
 
 export const getResultsIds = createSelector(
   getResults,
@@ -25,10 +26,6 @@ export const itemsToFetch = createSelector(
   (itemsAlreadyLoaded, searchResults, maxFetch, shouldFetch) => {
     const itemsToFetch = searchResults.filter(id => !itemsAlreadyLoaded.includes(id))
                                       .slice(0, maxFetch);
-
-    if(!itemsAlreadyLoaded.length) { // Debemos cargar primeros elementos
-      return itemsToFetch;
-    }
 
     return shouldFetch ? itemsToFetch : [];
   }
@@ -58,4 +55,13 @@ export const itemsProcessed = createSelector(
 
     return results;
   }
+)
+
+export const searchHadNoResults = createSelector(
+  getResultsIds,
+  getCurrentSearch,
+  (resultsFromSearch, searchedText) => {
+    return !resultsFromSearch.length && !!searchedText;
+  }
+
 )

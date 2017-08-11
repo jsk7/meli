@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemsList /> should render correctly 1`] = `
+<div
+  className="ItemsList"
+>
+  <ul>
+    <li>
+      <div
+        className="item"
+      >
+        <a
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="ItemQuickView"
+          >
+            <img
+              className="ItemQuickImage"
+              src="http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg"
+            />
+            <div
+              className="description"
+            >
+              <div
+                className="header"
+              >
+                <h2
+                  className="price"
+                >
+                  $ 7500
+                </h2>
+                <img
+                  className="shipping"
+                  src={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                />
+                <h4
+                  className="location"
+                >
+                  Capital Federal
+                </h4>
+              </div>
+              <h3
+                className="title"
+              >
+                <span
+                  className="capitalize"
+                >
+                  Apple Ipod Touch 32gb 6ta Generacion
+                </span>
+              </h3>
+              <h3
+                className="title"
+              >
+                <span
+                  className="capitalize"
+                />
+              </h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      <hr />
+    </li>
+    <li>
+      <div
+        className="item"
+      >
+        <a
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="ItemQuickView"
+          >
+            <img
+              className="ItemQuickImage"
+              src="http://mla-s1-p.mlstatic.com/636945-MLA25667589604_062017-I.jpg"
+            />
+            <div
+              className="description"
+            >
+              <div
+                className="header"
+              >
+                <h2
+                  className="price"
+                >
+                  $ 1700
+                </h2>
+                <img
+                  className="shipping"
+                  src={
+                    Object {
+                      "process": [Function],
+                    }
+                  }
+                />
+                <h4
+                  className="location"
+                >
+                  Buenos Aires
+                </h4>
+              </div>
+              <h3
+                className="title"
+              >
+                <span
+                  className="capitalize"
+                >
+                  Ipod Shuffle 2gb Apple 5ta Generacion Pink / Blue Rosa Azul
+                </span>
+              </h3>
+              <h3
+                className="title"
+              >
+                <span
+                  className="capitalize"
+                />
+              </h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      <hr />
+    </li>
+  </ul>
+</div>
+`;

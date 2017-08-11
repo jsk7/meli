@@ -1,4 +1,5 @@
 @import 'src/styles/variables';
+@import 'src/styles/common';
 
 .WhiteBox {
   background-color: white;
@@ -6,6 +7,20 @@
   display: flow-root;
   margin-bottom: $double-margin;
   border-radius: $border-radius;
+
+  .Message {
+    position: relative !important;
+
+    p {
+      text-align: center;
+      font-size: 24px;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      margin-top: 15%;
+      margin-bottom:  15%;
+    }
+  }
 
   -webkit-box-shadow: 0px 0px 20px -4px rgba(153,153,153,0.2);
   -moz-box-shadow: 0px 0px 20px -4px rgba(153,153,153,0.2);

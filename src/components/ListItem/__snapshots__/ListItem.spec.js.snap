@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> should render correctly if it has an item 1`] = `
+<div
+  className="ItemQuickView"
+>
+  <img
+    className="ItemQuickImage"
+    src="http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg"
+  />
+  <div
+    className="description"
+  >
+    <div
+      className="header"
+    >
+      <h2
+        className="price"
+      >
+        $ 7500
+      </h2>
+      <img
+        className="shipping"
+        src={
+          Object {
+            "process": [Function],
+          }
+        }
+      />
+      <h4
+        className="location"
+      >
+        Capital Federal
+      </h4>
+    </div>
+    <h3
+      className="title"
+    >
+      <span
+        className="capitalize"
+      >
+        Apple Ipod Touch 32gb 6ta Generacion
+      </span>
+    </h3>
+    <h3
+      className="title"
+    >
+      <span
+        className="capitalize"
+      />
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`<ListItem /> should render placeholders if it has no item 1`] = `
+<div
+  className="ItemQuickView"
+>
+  <img
+    className="ItemQuickImage"
+    src={undefined}
+  />
+  <div
+    className="description"
+  >
+    <div
+      className="header"
+    >
+      <h2
+        className="price placeholder"
+      >
+        $ undefined
+      </h2>
+      <img
+        className="shipping"
+        src={
+          Object {
+            "process": [Function],
+          }
+        }
+      />
+      <h4
+        className="location"
+      />
+    </div>
+    <h3
+      className="title placeholder"
+    >
+      <span
+        className="capitalize"
+      />
+    </h3>
+    <h3
+      className="title placeholderSubtitle"
+    >
+      <span
+        className="capitalize"
+      />
+    </h3>
+  </div>
+</div>
+`;

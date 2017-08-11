@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import './ListItem.scss';
 
-export default class ItemQuickView extends React.Component {
+export default class ListItem extends React.Component {
 
   render() {
     const { item, lang } = this.props;
-
+    const location = item.seller_address && item.seller_address.state && item.seller_address.state.name
     const priceClassname = classnames({
       price: true,
       placeholder: !item.price
@@ -29,7 +29,7 @@ export default class ItemQuickView extends React.Component {
             <img className="shipping"
                   src={require('../../assets/ic_shipping@2x.png.png')}
             />
-            <h4 className="location">{item.seller_address.state.name}</h4>
+            <h4 className="location">{location}</h4>
           </div>
           <h3 className={titleClassname}>
             <span className="capitalize">
@@ -47,7 +47,7 @@ export default class ItemQuickView extends React.Component {
   }
 }
 
-ItemQuickView.propTypes = {
+ListItem.propTypes = {
   item: PropTypes.object.isRequired,
   lang: PropTypes.object.isRequired
 }

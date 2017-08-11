@@ -4,7 +4,7 @@ import lang from '../language/es';
 export default {
   search: {
     input: '',
-    maxFetch: 4,
+    maxFetch: 2,
     shouldFetch: false,
     filters: [],
     paging: {},

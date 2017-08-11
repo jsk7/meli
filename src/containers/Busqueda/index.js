@@ -33,18 +33,25 @@ class Busqueda extends React.PureComponent {
   }
 
   render() {
-    const { filters, items, searchActions, lang } = this.props;
+    const { filters, items, searchActions, searchHadNoResults, lang } = this.props;
 
     return (
       <ContentFrame>
         <Categories categories={filters} />
-        <ContentFrame.WhiteBox>
-          <ItemsList
-            items={items}
-            lang={lang}
-          />
-          <LoadMoreContents load={searchActions.toggleFetch} />
-        </ContentFrame.WhiteBox>
+          {
+            searchHadNoResults ?
+            <ContentFrame.WhiteBox>
+              <ContentFrame.Message message={lang.no_results_found} />
+            </ContentFrame.WhiteBox>
+            :
+            <ContentFrame.WhiteBox>
+              <ItemsList
+                items={items}
+                lang={lang}
+              />
+              <LoadMoreContents load={searchActions.toggleFetch} />
+            </ContentFrame.WhiteBox>
+          }
       </ContentFrame>
     );
   }
@@ -56,6 +63,7 @@ Busqueda.propTypes = {
   filters: PropTypes.array,
   lang: PropTypes.object.isRequired,
   location: PropTypes.object,
+  searchHadNoResults: PropTypes.bool.isRequired,
   itemsActions: PropTypes.shape({
     fetchItems: PropTypes.func.isRequired
   }),
@@ -70,6 +78,7 @@ Busqueda.propTypes = {
 const mapStateToProps = state => ({
   items: searchSelectors.itemsProcessed(state),
   itemsToFetch: searchSelectors.itemsToFetch(state),
+  searchHadNoResults: searchSelectors.searchHadNoResults(state),
   filters: searchSelectors.getFilters(state),
   lang: state.lang.search
 })

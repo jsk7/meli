@@ -29,7 +29,7 @@ export default class ItemsList extends React.PureComponent {
                 <div className="item">
                   <Link to={`/items/${item.id}`}>
                     <ListItem item={item}
-                                    lang={this.props.lang}
+                              lang={this.props.lang}
                     />
                   </Link>
                 </div>

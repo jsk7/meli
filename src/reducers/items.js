@@ -21,7 +21,7 @@ export default (state = initialState.items, action) => {
       return newState;
 
     case types.CLEAR_ITEMS:
-      return initialState.items;
+      return {...initialState.items};
 
     default:
       return state;

@@ -1,4 +1,5 @@
 import * as actions from '../items/itemsActionCreators';
+import { toggleFetch } from '../search/searchBoundActions';
 import api from '../../api';
 
 export const fetchItems = (ids) =>
@@ -9,6 +10,7 @@ export const fetchItems = (ids) =>
       .then(results => {
         dispatch(actions.fetchSuccess());
         dispatch(actions.saveItems(results));
+        dispatch(toggleFetch(false));
         return results
       })
       .catch(e => dispatch(actions.fetchFailed(e)) )

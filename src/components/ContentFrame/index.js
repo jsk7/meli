@@ -26,12 +26,17 @@ ContentFrame.RightPanel = (props) =>
     {props.children}
   </div>
 
+ContentFrame.Message = (props) =>
+  <div className="Message">
+    <p className="capitalize">
+      {props.message}
+    </p>
+  </div>
+
 ContentFrame.WhiteBox.displayName = "ContentFrame.WhiteBox"
 ContentFrame.LeftPanel.displayName = "ContentFrame.LeftPanel"
 ContentFrame.RightPanel.displayName = "ContentFrame.RightPanel"
-
-export default ContentFrame;
-
+ContentFrame.Message.displayName = "ContentFrame.Message"
 
 ContentFrame.propTypes = {
   children: PropTypes.array
@@ -45,3 +50,8 @@ ContentFrame.LeftPanel.propTypes = {
 ContentFrame.RightPanel.propTypes = {
   children: PropTypes.array
 }
+ContentFrame.Message.propTypes = {
+  message: PropTypes.string.isRequired
+}
+
+export default ContentFrame;

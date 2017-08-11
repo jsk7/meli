@@ -1,6 +1,7 @@
 {
   "search": {
-    "new": "completo único!"
+    "new": "completo único!",
+    "no_results_found": "no se han encontrado resultados para la busqueda"
   },
   "productDetails": {
     "new": "nuevo",

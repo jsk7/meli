@@ -57,5 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+.firebaserc
 .firebase.json
 .database.rules.json

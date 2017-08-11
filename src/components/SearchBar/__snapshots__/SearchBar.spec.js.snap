@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> should render correctly 1`] = `
+<div
+  className="SearchBar"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Nunca dejes de buscar"
+      type="text"
+      value="textMock"
+    />
+    <button
+      className="searchButton"
+      type="submit"
+    >
+      <i
+        className="search"
+      />
+    </button>
+  </form>
+</div>
+`;

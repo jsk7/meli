@@ -28,7 +28,7 @@ App.propTypes = {
     searchInputChanged: PropTypes.func.isRequired,
     search: PropTypes.func.isRequired
   }),
-  children: PropTypes.array
+  children: PropTypes.object
 }
 
 const mapStateToProps = state => ({

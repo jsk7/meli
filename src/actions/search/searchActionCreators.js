@@ -28,6 +28,7 @@ export const clearSearch = () => ({
 });
 
 
-export const toggleFetch = () => ({
-  type: types.TOGGLE_FETCH
+export const toggleFetch = (boolean) => ({
+  type: types.TOGGLE_FETCH,
+  value: boolean
 })
