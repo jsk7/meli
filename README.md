@@ -42,3 +42,11 @@ Para buildear el proyecto
 ```
 npm run build
 ```
+
+## What you won't find
+
+### Responsive:
+
+```
+En las especificaciones se da un tamaño fijo para las imágenes, esto denota que la aplicación no será responsivea.
+```
