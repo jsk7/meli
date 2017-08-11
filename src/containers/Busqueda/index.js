@@ -34,14 +34,16 @@ class Busqueda extends React.PureComponent {
 
   render() {
     const { filters, items, searchActions, searchHadNoResults, lang } = this.props;
+    const isActuallySearching = !!this.props.location.query.search;
+    const message = !isActuallySearching ? lang.search_something : lang.no_results_found
 
     return (
       <ContentFrame>
         <Categories categories={filters} />
           {
-            searchHadNoResults ?
+            searchHadNoResults || !isActuallySearching ?
             <ContentFrame.WhiteBox>
-              <ContentFrame.Message message={lang.no_results_found} />
+              <ContentFrame.Message message={message} />
             </ContentFrame.WhiteBox>
             :
             <ContentFrame.WhiteBox>
