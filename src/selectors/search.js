@@ -43,7 +43,8 @@ export const itemsProcessed = createSelector(
       if(!fullItemData) {
         return;
       }
-      const fullItemImg = fullItemData && fullItemData.pictures[0].url;
+
+      const fullItemImg = fullItemData && fullItemData.pictures[0].secure_url;
 
       resultCopy.price = UtilHelper.formatMoney(resultCopy.price);
       resultCopy.thumbnail = fullItemImg || result.thumbnail

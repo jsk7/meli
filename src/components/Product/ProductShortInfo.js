@@ -21,7 +21,7 @@ ProductShortInfo.propTypes = {
     title: PropTypes.string.isRequired,
     price: PropTypes.string,
     condition: PropTypes.string,
-    sold_quantity: PropTypes.string,
+    sold_quantity: PropTypes.number,
   }),
   lang: PropTypes.shape({
     sold: PropTypes.string.isRequired
