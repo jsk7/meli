@@ -12,12 +12,12 @@ export default class NavBar extends React.PureComponent {
       <div className="NavBar">
         <div className="container">
           <div className="row">
-            <div className="col-1">
+            <div className="col-1 col-2-sm logo">
               <Link to="/">
                 <LogoMercadoLibre />
               </Link>
             </div>
-            <div className="col-11">
+            <div className="col-11 col-10-sm bar">
               <SearchBar value={this.props.searchInput}
                           onChange={this.props.onSearchChange}
                           search={this.props.search}

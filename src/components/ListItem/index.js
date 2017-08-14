@@ -21,9 +21,11 @@ export default class ListItem extends React.Component {
       placeholderSubtitle: !item.condition
     })
     return (
-      <div className="ItemQuickView" >
-        <img src={item.thumbnail} className="ItemQuickImage" />
-        <div className="description">
+      <div className="ListItem" >
+        <div className="col-3 col-3-sm">
+          <img src={item.thumbnail} className="ItemQuickImage" />
+        </div>
+        <div className="description col-9 col-9-sm">
           <div className="header">
             <h2 className={priceClassname}>{`$ ${item.price}`}</h2>
             <img className="shipping"

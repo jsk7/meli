@@ -39,16 +39,16 @@ ContentFrame.RightPanel.displayName = "ContentFrame.RightPanel"
 ContentFrame.Message.displayName = "ContentFrame.Message"
 
 ContentFrame.propTypes = {
-  children: PropTypes.array
+  children: PropTypes.node
 }
 ContentFrame.WhiteBox.propTypes = {
-  children: PropTypes.array
+  children: PropTypes.node
 }
 ContentFrame.LeftPanel.propTypes = {
-  children: PropTypes.array
+  children: PropTypes.node
 }
 ContentFrame.RightPanel.propTypes = {
-  children: PropTypes.array
+  children: PropTypes.node
 }
 ContentFrame.Message.propTypes = {
   message: PropTypes.string.isRequired

@@ -4,4 +4,20 @@
   background-color: $meli-brand-color;
   max-height: 54px;
 
+  .logo {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 56px;
+  }
+
+  .bar {
+    @media only screen and (min-width: 1000px){
+        width: 89.66667%;
+        margin-right: 0px !important
+    }
+    @media only screen and (min-width: 1200px){
+        width: 92%;
+        margin-right: 0px !important
+    }
+  }
 }

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Categories from '../../components/Categories';
 import ItemsList from '../../components/ItemsList';
 import ContentFrame from '../../components/ContentFrame';
-import LoadMoreContents from '../../components/LoadMoreContents';
 import * as searchSelectors from '../../selectors/search';
 import * as itemsBoundActions from '../../actions/items/itemsBoundActions';
 import * as searchBoundActions from '../../actions/search/searchBoundActions';
@@ -40,20 +39,18 @@ class Busqueda extends React.PureComponent {
     return (
       <ContentFrame>
         <Categories categories={filters} />
-          {
-            searchHadNoResults || !isActuallySearching ?
-            <ContentFrame.WhiteBox>
+          <ContentFrame.WhiteBox>
+            {
+              searchHadNoResults || !isActuallySearching ?
               <ContentFrame.Message message={message} />
-            </ContentFrame.WhiteBox>
-            :
-            <ContentFrame.WhiteBox>
+              :
               <ItemsList
                 items={items}
                 lang={lang}
+                fetch={searchActions.toggleFetch}
               />
-              <LoadMoreContents load={searchActions.toggleFetch} />
-            </ContentFrame.WhiteBox>
-          }
+            }
+        </ContentFrame.WhiteBox>
       </ContentFrame>
     );
   }
