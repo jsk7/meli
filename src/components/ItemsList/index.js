@@ -8,7 +8,7 @@ import './ItemsList.scss';
 export default class ItemsList extends React.PureComponent {
 
   render() {
-    let { items, fetch } = this.props;
+    let { items, fetch  } = this.props;
 
     if(!items.length) { // Placeholders
       for(let i = 0; i < 4; i++)

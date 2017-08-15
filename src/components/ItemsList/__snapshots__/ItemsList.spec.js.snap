@@ -7,128 +7,164 @@ exports[`<ItemsList /> should render correctly 1`] = `
   <ul>
     <li>
       <div
-        className="item"
+        className="row"
       >
-        <a
-          onClick={[Function]}
-          style={Object {}}
+        <div
+          className="item"
         >
-          <div
-            className="ItemQuickView"
+          <a
+            onClick={[Function]}
+            style={Object {}}
           >
-            <img
-              className="ItemQuickImage"
-              src="http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg"
-            />
             <div
-              className="description"
+              className="ListItem"
             >
               <div
-                className="header"
+                className="image-helper"
               >
-                <h2
-                  className="price"
-                >
-                  $ 7500
-                </h2>
                 <img
-                  className="shipping"
-                  src={
-                    Object {
-                      "process": [Function],
-                    }
-                  }
+                  className="ItemQuickImage"
+                  src="http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg"
                 />
-                <h4
-                  className="location"
-                >
-                  Capital Federal
-                </h4>
               </div>
-              <h3
-                className="title"
+              <div
+                className="description col-9 col-7-sm"
               >
-                <span
-                  className="capitalize"
+                <div
+                  className="header"
                 >
-                  Apple Ipod Touch 32gb 6ta Generacion
-                </span>
-              </h3>
-              <h3
-                className="title"
-              >
-                <span
-                  className="capitalize"
-                />
-              </h3>
+                  <h2
+                    className="price"
+                  >
+                    $ 7500
+                  </h2>
+                  <img
+                    className="shipping"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  />
+                  <h4
+                    className="location"
+                  >
+                    Capital Federal
+                  </h4>
+                </div>
+                <h3
+                  className="title"
+                >
+                  <span
+                    className="capitalize"
+                  >
+                    Apple Ipod Touch 32gb 6ta Generacion
+                  </span>
+                </h3>
+                <h3
+                  className="title"
+                >
+                  <span
+                    className="capitalize"
+                  />
+                </h3>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+        <hr />
       </div>
-      <hr />
     </li>
     <li>
       <div
-        className="item"
+        className="row"
       >
-        <a
-          onClick={[Function]}
-          style={Object {}}
+        <div
+          className="item"
         >
-          <div
-            className="ItemQuickView"
+          <a
+            onClick={[Function]}
+            style={Object {}}
           >
-            <img
-              className="ItemQuickImage"
-              src="http://mla-s1-p.mlstatic.com/636945-MLA25667589604_062017-I.jpg"
-            />
             <div
-              className="description"
+              className="ListItem"
             >
               <div
-                className="header"
+                className="image-helper"
               >
-                <h2
-                  className="price"
-                >
-                  $ 1700
-                </h2>
                 <img
-                  className="shipping"
-                  src={
-                    Object {
-                      "process": [Function],
-                    }
-                  }
+                  className="ItemQuickImage"
+                  src="http://mla-s1-p.mlstatic.com/636945-MLA25667589604_062017-I.jpg"
                 />
-                <h4
-                  className="location"
-                >
-                  Buenos Aires
-                </h4>
               </div>
-              <h3
-                className="title"
+              <div
+                className="description col-9 col-7-sm"
               >
-                <span
-                  className="capitalize"
+                <div
+                  className="header"
                 >
-                  Ipod Shuffle 2gb Apple 5ta Generacion Pink / Blue Rosa Azul
-                </span>
-              </h3>
-              <h3
-                className="title"
-              >
-                <span
-                  className="capitalize"
-                />
-              </h3>
+                  <h2
+                    className="price"
+                  >
+                    $ 1700
+                  </h2>
+                  <img
+                    className="shipping"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  />
+                  <h4
+                    className="location"
+                  >
+                    Buenos Aires
+                  </h4>
+                </div>
+                <h3
+                  className="title"
+                >
+                  <span
+                    className="capitalize"
+                  >
+                    Ipod Shuffle 2gb Apple 5ta Generacion Pink / Blue Rosa Azul
+                  </span>
+                </h3>
+                <h3
+                  className="title"
+                >
+                  <span
+                    className="capitalize"
+                  />
+                </h3>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+        <hr />
       </div>
-      <hr />
     </li>
   </ul>
+  <div
+    className="sampleContainer"
+  >
+    <div
+      className="loader"
+    >
+      <span
+        className="dot dot_1"
+      />
+      <span
+        className="dot dot_2"
+      />
+      <span
+        className="dot dot_1"
+      />
+      <span
+        className="dot dot_4"
+      />
+    </div>
+  </div>
 </div>
 `;

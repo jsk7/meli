@@ -22,10 +22,10 @@ export default class ListItem extends React.Component {
     })
     return (
       <div className="ListItem" >
-        <div className="col-3 col-3-sm">
+        <div className="image-helper">
           <img src={item.thumbnail} className="ItemQuickImage" />
         </div>
-        <div className="description col-9 col-9-sm">
+        <div className="description col-9 col-7-sm">
           <div className="header">
             <h2 className={priceClassname}>{`$ ${item.price}`}</h2>
             <img className="shipping"

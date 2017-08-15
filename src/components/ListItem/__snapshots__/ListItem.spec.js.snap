@@ -2,14 +2,18 @@
 
 exports[`<ListItem /> should render correctly if it has an item 1`] = `
 <div
-  className="ItemQuickView"
+  className="ListItem"
 >
-  <img
-    className="ItemQuickImage"
-    src="http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg"
-  />
   <div
-    className="description"
+    className="image-helper"
+  >
+    <img
+      className="ItemQuickImage"
+      src="http://mla-s2-p.mlstatic.com/893911-MLA25840454871_082017-I.jpg"
+    />
+  </div>
+  <div
+    className="description col-9 col-7-sm"
   >
     <div
       className="header"
@@ -55,14 +59,18 @@ exports[`<ListItem /> should render correctly if it has an item 1`] = `
 
 exports[`<ListItem /> should render placeholders if it has no item 1`] = `
 <div
-  className="ItemQuickView"
+  className="ListItem"
 >
-  <img
-    className="ItemQuickImage"
-    src={undefined}
-  />
   <div
-    className="description"
+    className="image-helper"
+  >
+    <img
+      className="ItemQuickImage"
+      src={undefined}
+    />
+  </div>
+  <div
+    className="description col-9 col-7-sm"
   >
     <div
       className="header"

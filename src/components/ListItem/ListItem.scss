@@ -5,19 +5,27 @@
 .ListItem {
   height: 100%;
   color: $darkest;
-
+  .image-helper {
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
   .ItemQuickImage {
+    width: 100%;
+    height: 100%;
     width: $product-thumbnail-size;
     height: $product-thumbnail-size;
     border-radius: $border-radius;
     padding: 0 $base-margin;
     object-fit: contain;
+    left: 50%;
+
   }
 
   .description {
     position: absolute;
     display: inline-block;
-    width: 78%;
 
     * {
       font-weight: 400;
@@ -95,7 +103,7 @@
       position: absolute;
       color: $dark;
       float: right;
-      margin-right: 10%;
+      margin-right: 8%;
       bottom: 0;
       right: 0;
       vertical-align: bottom;

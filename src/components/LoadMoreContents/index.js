@@ -6,8 +6,8 @@ import './LoadMoreContents.scss';
 const LoadMoreContents = (props) =>
   <Waypoint
     scrollableAncestor={window}
-    onEnter={props.load.bind(null, true)}
-    onLeave={props.load.bind(null, false)}
+    onEnter={() => props.load(true)}
+    onLeave={() => props.load(false)}
   >
     <div className="sampleContainer">
       <div className="loader">
@@ -20,7 +20,7 @@ const LoadMoreContents = (props) =>
   </Waypoint>
 
 LoadMoreContents.propTypes = {
-  load: PropTypes.func.isRequired
+  load: PropTypes.func
 }
 
 export default LoadMoreContents;
